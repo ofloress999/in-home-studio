@@ -224,6 +224,7 @@
     .wanderley-section {
         margin-top: 50px;
         background-color: #444f3f;
+        padding-bottom: 50px;
     }
 
     .wanderley-content {
@@ -256,5 +257,206 @@
         margin-top: 20px;
         color: white;
         font-size: 18px;
+    }
+
+/*COMO FUNCIONA*/
+
+    .como-funciona-section {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .como-funciona-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .como-funciona-content h1 {
+        text-transform: uppercase;
+        font-size: 32px;
+
+    }
+
+    .como-funciona-content span {
+        color: #ad592e;
+    }
+
+    .como-funciona-content p {
+        font-size: 18px;
+        max-width: 900px;
+        text-align: justify;
+    }
+
+/*AGENDA*/
+    .agenda-section {
+        background-color: #444f3f;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .agenda-content {
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .agenda-content h1 {
+        text-transform: uppercase;
+        font-size: 32px;
+        color: white;
+    }
+
+    .agenda-content span {
+        color: #ad592e;
+    }
+
+    .agenda-content p {
+        font-size: 18px;
+        max-width: 900px;
+        color: white;
+    }
+
+    /*PROJETOS*/
+    .projetos {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;  
+        gap: 30px;
+    }
+
+    .carousel-container {
+        position: relative;
+        width: 100%;
+        overflow: hidden; 
+        margin: 20px 0;
+    }
+
+    .carousel-container h1 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .carousel-container span {
+        color: #ad592e;
+    }
+
+
+    .carousel-track {
+        display: flex;
+        gap: 10px;                /* <-- AQUI É O GAP EXATO QUE VOCÊ PEDIU */
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel-item {
+        min-width: 300px;         /* largura da imagem */
+        flex-shrink: 0;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        border-radius: 10px;
+        display: block;
+    }
+
+    /* Botões */
+    .carousel-container {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: 20px 0;
+    }
+
+    .carousel-track {
+        display: flex;
+        gap: 40px; /* gap que você pediu */
+        transition: transform 0.5s ease-in-out;
+    }
+
+    /* 35% da largura do container */
+    .carousel-item {
+        min-width: 35%;
+        flex-shrink: 0;
+    }
+
+    .carousel-item img {
+        width: 600px;
+        border-radius: 12px;
+        display: block;
+    }
+
+    /* Botões */
+    .carousel-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #ffffffd2;
+        border: none;
+        padding: 10px 15px;
+        font-size: 26px;
+        cursor: pointer;
+        border-radius: 50%;
+        z-index: 5;
+    }
+
+    .carousel-btn.prev {
+        left: 10px;
+    }
+
+    .carousel-btn.next {
+        right: 10px
+    }
+
+    .carousel-track {
+        display:flex; 
+        gap:40px; transition: transform .5s ease-in-out; 
+    }
+
+    .carousel-item {
+        min-width: 35%; 
+        flex-shrink: 0; box-sizing: 
+        border-box; 
+    }
+
+    .carousel-container { 
+        overflow:hidden; 
+        position:relative; 
+    }
+
+
+    /*FOOTER*/
+    footer {
+        background-color: #444f3f;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 14px;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer-contatos {
+        display: flex;
+        gap: 10px;
+    }
+
+    .footer-card img {
+        width: 34px;
+    }
+
+    .footer-info {
+        text-align: center;
     }
 }
