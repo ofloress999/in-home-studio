@@ -1,4 +1,5 @@
 @media (max-width: 600px) {
+    
     .header-content {
         display: flex;
         align-items: center;
@@ -49,7 +50,7 @@
     .apresentacao-info h1 {
         text-transform: uppercase;
         font-size: 24px;
-        text-align: left;
+        text-align: justify;
     }
 
     .apresentacao-info p {
@@ -161,4 +162,99 @@
         display: none;
     }
 
+    /*ANELISE SECTION*/
+    .anelise-section {
+        margin-top: 50px;
+    }
+
+    .anelise-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .anelise-info {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center ;
+        max-width: 680px;
+        gap: 20px;
+    }
+
+    .anelise-info p span{
+        font-weight: 600;
+        color: #ad592e;
+    }
+
+    .anelise-info p {
+        margin-top: 30px;
+        font-size: 18px;
+        max-width: 550px;
+        text-align: justify;
+    }
+
+    .anelise-info h1 {
+        text-transform: uppercase;
+        max-width: 600px;
+    }
+
+    .anelise-info h1 span {
+        color: #ad592e;
+        font-weight: 600;
+
+    }
+
+    .anelise-foto img {
+        width: 350px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.309);
+    }
+
+    .end-list {
+        margin-top: 35px;
+        font-size: 22px;
+        max-width: 600px;
+    }
+
+
+    /*WANDERLEY SECTION*/
+    .wanderley-section {
+        margin-top: 50px;
+        background-color: #444f3f;
+    }
+
+    .wanderley-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 50px;
+    }
+
+    .wanderley-foto img {
+        width: 350px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.309);
+    }
+
+    .wanderley-texto h1{
+        color: white;
+        text-transform: uppercase;
+        font-size: 24px;
+    }
+
+    .wanderley-texto p span{
+        color: #ad592e;
+    }
+
+    .wanderley-texto p {
+        text-align: justify;
+        margin-top: 20px;
+        color: white;
+        font-size: 18px;
+    }
 }
