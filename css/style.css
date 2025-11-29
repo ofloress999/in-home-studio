@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/*blur-box*/
+.blur-box {
+  background-color: #444f3fca; /* fundo semitransparente */
+  backdrop-filter: blur(10px);               /* desfoca o fundo */
+  -webkit-backdrop-filter: blur(10px);       /* suporte para Safari */
+}
+
+/*INICIO HEADER*/
+header {    
+    background-color: #444f3fca;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    margin-bottom: 50px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header-logo img {
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.header-menu ul {
+    display: flex;
+    gap: 40px;
+}
+
+
+.header-menu ul li {
+    list-style: none;
+}
+
+.header-menu ul a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+}
+
+.header-menu ul a:hover {
+        border-bottom: 1px solid white;
+}
+
+/*INICIO APRESENTAÇÃO*/
+#apresentacao {
+    margin-top: 180PX;
+}
+
+.apresentacao-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+#apresentacao span {
+    color: #ad592e;
+}
+
+.apresentacao-foto img {
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.309);
+}
+
+.apresentacao-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 680px;
+    gap: 20px;
+}
+
+.apresentacao-info h1 {
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: left;
+}
+
+.apresentacao-info p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.apresentacao-button .btn {
+    display: inline-block;
+    background-color: #ad592e;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.apresentacao-button .btn:HOVER {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* PRA QUEM É A IN HOME STUDIO */
+
+#apresentacao-pra-quem {
+    margin-top: 100px;
+    background-color: #444f3f;
+}
+
+.apresentacao-pra-quem-content {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.pra-quem-info {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 28px;
+    text-align: center;
+}
+
+.pra-quem-info span {
+    color: #ad592e;
+}
+
+.pra-quem-info h1 {
+    font-size: 32px;
+    color: white;
+}
+
+.pra-quem-info p {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+/*CARDS*/
+.pra-quem-cards {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.pra-quem-card {
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b302b;
+    border-radius: 15px;
+    gap: 15px;
+    padding: 20px;
+}
+
+.pra-quem-card:hover {
+    margin-top: -10px;
+    background-color: #ad592e;
+    border-radius: 15px;
+    color: black;
+    gap: 15px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.pra-quem-card img {
+    margin-left: 20px;
+}
+
+.pra-quem-card p {
+    font-size: 15px;
+    width: 500px;
+    font-weight: 400;
+}
+
+.pra-quem-foto img {
+    width: 500px;
+    border-radius: 50px;
+}
+
+/*ANELISE SECTION*/
+.anelise-section {
+    margin-top: 100px;
+}
+
+.anelise-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.anelise-info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center ;
+    max-width: 680px;
+    gap: 20px;
+}
+
+.anelise-info p span{
+    font-weight: 600;
+    color: #ad592e;
+}
+
+.anelise-info p {
+    margin-top: 30px;
+    font-size: 18px;
+    max-width: 550px;
+    text-align: justify;
+}
+
+.anelise-info h1 {
+    text-transform: uppercase;
+    max-width: 600px;
+}
+
+.anelise-info h1 span {
+    color: #ad592e;
+    font-weight: 600;
+
+}
+
+.anelise-foto img {
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.309);
+}
+
+.end-list {
+    margin-top: 35px;
+    font-size: 22px;
+    max-width: 600px;
+}
+
+/*WANDERLEY SECTION*/
+.wanderley-section {
+    margin-top: 100px;
+    background-color: #444f3f;
+}
+
+.wanderley-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.wanderley-foto img {
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.309);
+}
+
+.wanderley-texto h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.wanderley-texto p span{
+    color: #ad592e;
+}
+
+.wanderley-texto p {
+    text-align: justify;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}

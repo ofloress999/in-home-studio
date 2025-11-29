@@ -1,0 +1,164 @@
+@media (max-width: 600px) {
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .header-logo img {
+        height: 80px;
+        margin-left: 0px;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    /*INICIO APRESENTAÇÃO*/
+    #apresentacao {
+        margin-top: 150PX;
+    }
+
+    .apresentacao-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        
+    }
+
+    #apresentacao span {
+        color: #ad592e;
+    }
+
+    .apresentacao-foto img {
+        width: 350px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.309);
+    }
+
+    .apresentacao-info {
+        display: flex;
+        flex-direction: column;
+        max-width: 680px;
+        gap: 20px;
+    }
+
+    .apresentacao-info h1 {
+        text-transform: uppercase;
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .apresentacao-info p {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: justify;
+    }
+
+
+    .apresentacao-button{
+        display: inline-flex;
+        background-color: #ad592e;
+        color: white;
+        text-decoration: none;
+        padding: 15px 30px;
+        font-size: 18px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease;
+        justify-content: center;
+    }
+
+    .apresentacao-button .btn:HOVER {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
+
+/* PRA QUEM É A IN HOME STUDIO */
+
+    #apresentacao-pra-quem {
+        margin-top: 100px;
+        background-color: #444f3f;
+    }
+
+    .apresentacao-pra-quem-content {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .pra-quem-info {
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .pra-quem-info span {
+        color: #ad592e;
+    }
+
+    .pra-quem-info h1 {
+        font-size: 24px;
+        color: white;
+    }
+
+    .pra-quem-info p {
+        margin-top: 5px;
+        font-size: 16px;
+        font-weight: 300;
+        color: white;
+    }
+
+
+    /*CARDS*/
+    .pra-quem-cards {
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .pra-quem-card {
+        margin-top: -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #2b302b;
+        border-radius: 15px;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .pra-quem-card:hover {
+        margin-top: -10px;
+        background-color: #ad592e;
+        border-radius: 15px;
+        color: black;
+        gap: 15px;
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    .pra-quem-card img {
+        margin-left: 0;
+    }
+
+    .pra-quem-card p {
+        font-size: 15px;
+        width: 300px;
+        font-weight: 300;
+    }
+
+    .pra-quem-foto  {
+        display: none;
+    }
+
+}
